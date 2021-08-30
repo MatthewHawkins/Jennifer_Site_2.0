@@ -10,7 +10,7 @@ import ContactsIcon from '@material-ui/icons/Contacts';
 export const NavbarData = [
 
     {
-        title: "Vitae",
+        title: "About Me",
         icon: <WorkOutlineIcon />,
         link: "/#AboutMe",
         position: "AboutMe"

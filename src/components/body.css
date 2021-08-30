@@ -15,8 +15,8 @@
 
 .jumboTwo{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
+        rgba(0, 0, 0, 0.60),
+        rgba(0, 0, 0, 0.60)
       ),
       url(./photos/jumbo2.jpg);
     background-size: cover;
@@ -75,6 +75,11 @@
 .padding{
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+.paddingAll{
+  padding: 5rem;
+  
 }
 
 

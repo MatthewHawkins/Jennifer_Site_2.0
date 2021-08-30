@@ -62,6 +62,9 @@ body{
     object-fit: cover;
     display: grid;
     place-items: center;
+    border: rgb(255, 192, 119) 10px solid;
+    /* border-image: linear-gradient( rgb(248, 181, 94), rgb(248, 181, 54)) 1 / 10px round; */
+    padding: 0;
 }
 
 

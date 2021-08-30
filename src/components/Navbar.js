@@ -14,7 +14,8 @@ function myNavbar(){
         <div className='Sidebar'>
             <Container>
             <Row className='centered'>
-            <Image src={logo} className='profilePhoto' roundedCircle/>
+            {/* <Image src={logo} className='profilePhoto' roundedCircle/> */}
+            <img src={logo} className='rounded-circle profilePhoto' alt='Jennifer and Benny'></img>
             </Row>
             <br></br>
             <Row>

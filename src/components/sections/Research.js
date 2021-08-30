@@ -58,7 +58,7 @@ function Research() {
                 </Col>
             </Row>
         </Container>
-        <Container className='padding'>
+        <Container className='paddingAll'>
             <Jumbotron className='jumboResearch'>
                 <h1 className='display-4'>Publications</h1>
                 <p>
