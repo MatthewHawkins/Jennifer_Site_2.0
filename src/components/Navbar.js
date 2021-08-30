@@ -1,63 +1,51 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
+import {Image, Container, Row, Nav} from 'react-bootstrap';
+import {NavbarData} from './NavbarData.js'
+import logo from './photos/benny.jpg'
+import logo2 from './photos/OSU_horizontal_2C_O_over_B.png'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './navbar.css';
+import '../App.css';
 
 
 function myNavbar(){
-
+    
     return(
-        <>
-
-
- <Navbar expand='lg' bg='primary' variant='dark' fixed='top' id='sideNav'>
-             <Navbar.Brand href="#page-top" className='js-scroll-trigger'>Jennifer Parham-Mocello, PhD</Navbar.Brand>
-                 <span className='d-block d-lg-none'> Jennifer</span>
-            
-             <Nav.Link className ='nav-link' href='#'>Home</Nav.Link>
-             <Nav.Link className ='nav-link' href='#'>Research</Nav.Link>
-             <Nav.Link className ='nav-link' href='#'>Teaching</Nav.Link>
-             <Nav.Link className ='nav-link' href='#'>Service</Nav.Link>
-             <Nav.Link className ='nav-link' href='#'>Contact</Nav.Link>
-         </Navbar>
-            {/* <Nav className="d-none d-md-block bg-light sidebar"
-                activeKey="/home"
-                >
-                    <div className="sidebar-sticky"></div>
-                <Nav.Item>
-                    <Nav.Link href="/home">Active</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-1">Link</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-2">Link</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="disabled" disabled>
-                    Disabled
+        <div className='Sidebar'>
+            <Container>
+            <Row className='centered'>
+            <Image src={logo} className='profilePhoto' roundedCircle/>
+            </Row>
+            <br></br>
+            <Row>
+            <ul className='SidebarList'>
+            {NavbarData.map((val, key) =>{
+                return( 
+                <li 
+                key={key} 
+                className="Row"
+                id={document.activeElement === 'body' ? "active" : "NAN"}
+                // onClick={()=> {
+                    // window.location.pathname = val.link
+                // }}
+                >  
+                    <Nav.Link href={val.link} className='Row'>
+                    <div id="icon">{val.icon}</div>
+                    <div id="title">{val.title}</div>
                     </Nav.Link>
-                </Nav.Item>
-            </Nav> */}
-        </>
-
-
-
-
-        // <Navbar expand='lg' bg='primary' variant='dark' fixed='top' id='sideNav'>
-        //     <Navbar.Brand href="#page-top" className='js-scroll-trigger'>Jennifer Parham-Mocello, PhD</Navbar.Brand>
-        //         <span className='d-block d-lg-none'> Jennifer</span>
-            
-        //     <Nav.Link className ='nav-link' href='#'>Home</Nav.Link>
-        //     <Nav.Link className ='nav-link' href='#'>Research</Nav.Link>
-        //     <Nav.Link className ='nav-link' href='#'>Teaching</Nav.Link>
-        //     <Nav.Link className ='nav-link' href='#'>Service</Nav.Link>
-        //     <Nav.Link className ='nav-link' href='#'>Contact</Nav.Link>
-        // </Navbar>
+                </li>
+                );
+            })}
+            </ul>
+            </Row>
+            <Row className='centeredBottom'>
+            <img src={logo2} style={{width:140}}></img>
+            </Row>
+            </Container>
+        </div>
     );
 
 }
 
 
 export default myNavbar;
-

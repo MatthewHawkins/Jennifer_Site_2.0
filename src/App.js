@@ -1,38 +1,22 @@
 import React from "react";
-import {Container, Row, Col } from "react-bootstrap";
 import './App.css';
 import Navbar from './components/Navbar';
-import './components/navbar.css'
+import PageBody from "./components/Body";
 
 
 
 function App() {
   return (
-    <>
-    
-      <Row>
-    <Col><Navbar /></Col>
-    <Col><p>HELLO</p></Col>
-    </Row>
-    
-    </>
+    <div className='App'>
+      <div className='Wrapper'>
+      <Navbar className='sticky-top'/>
+      </div>
+      <div className='Wrapper2'>
+      <PageBody />
+      </div>
+    </div>
   );
 }
-
-
-
-
-
-{/* <Container fluid>    
-        <Col xs={2} id="sidebar-wrapper">
-                                        <Navbar />
-                              </Col>
-                              <Col  xs={10} id="page-content-wrapper">
-                        this is a test
-                  <p>ASDADSASDASDASDASDASDASDASDASD</p>
-                  </Col>
-        </Container> */}
-
 
 
 
