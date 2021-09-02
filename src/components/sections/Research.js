@@ -1,5 +1,5 @@
 import { Jumbotron } from 'reactstrap';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../body.css'
 
 function Research() {
@@ -9,6 +9,9 @@ function Research() {
             <Jumbotron className="jumboOne" id='Research'>
                 <Container className="rows">
                     <h1 className='mainFont'>Research</h1>
+                </Container>
+                <Container className="text-center btnResearch">
+                    <Button href='/research'>See Current Projects</Button>
                 </Container>
             <Container className='padding'>
             <Row className='rowresearch'>
@@ -59,7 +62,7 @@ function Research() {
             </Row>
         </Container>
         <Container className='paddingAll'>
-            <Jumbotron className='jumboResearch'>
+            <Jumbotron className='jumboResearch paddingR'>
                 <h1 className='display-4'>Publications</h1>
                 <p>
 	                Azzouni, Abdullah and Parham-Mocello, J. (2021). Continuous Improvement in Academic Computing Programs is Rarely Comprehensive. American Society for Engineering Education (ASEE 2021). (Abstract approved, Paper submitted) 

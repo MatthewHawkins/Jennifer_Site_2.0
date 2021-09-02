@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: hidden;
-    
     scroll-behavior: smooth;
 }
 
@@ -59,12 +58,20 @@ body{
 .Sidebar .profilePhoto{
     width: 200px;
     height: 175px;
-    object-fit: cover;
+    position: relative;
+    margin-top: 10px;
     display: grid;
     place-items: center;
-    border: rgb(255, 192, 119) 10px solid;
+    border: #be6e4ecb 8px solid;
     /* border-image: linear-gradient( rgb(248, 181, 94), rgb(248, 181, 54)) 1 / 10px round; */
     padding: 0;
+}
+
+.Sidebar .profilePhoto > img{
+    object-fit: cover;
+    position: absolute;
+    margin-top: 10px;
+
 }
 
 
@@ -97,9 +104,6 @@ body{
 
 }
 
-.active{
-    color: #a51717;
-}
 
 .Row #icon{
     flex: 30%;

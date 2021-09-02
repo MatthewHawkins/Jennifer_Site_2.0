@@ -39,7 +39,7 @@ function Service(){
                    <a href='#'>
                     <h2>K-12 Outreach</h2>
                    </a>
-                   <Image src={logo7} roundedCircle className='cirimg'/>
+                   <Image src={logo7} rounded className='cirimg'/>
                </Col>
            </Row>
 

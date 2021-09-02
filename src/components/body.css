@@ -78,8 +78,14 @@
 }
 
 .paddingAll{
-  padding: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
   
+}
+
+.paddingR{
+  padding-right: 2rem;
 }
 
 
@@ -180,6 +186,7 @@
     padding-bottom: 0;
     padding-left: 2rem;
 }
+
 
 
 

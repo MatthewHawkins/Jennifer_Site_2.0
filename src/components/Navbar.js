@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, Container, Row, Nav} from 'react-bootstrap';
 import {NavbarData} from './NavbarData.js'
-import logo from './photos/benny.jpg'
+import logo from './photos/headshot.jpg'
 import logo2 from './photos/OSU_horizontal_2C_O_over_B.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';

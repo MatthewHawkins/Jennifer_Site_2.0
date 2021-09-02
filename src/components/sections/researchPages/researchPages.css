@@ -1,0 +1,78 @@
+.carouseldims{
+    padding-left: 200px;
+    height: 500px;
+    width: 1000px;
+}
+
+.carouselimg{
+    height: 800px;
+    width: 100%;
+    background: #777;
+    color: #777;
+}
+
+
+.caroOne{
+    height: 500px;
+    width: 100%;
+    background: #777;
+    color: #777;
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url(./researchPhotos/slide1.jpg);
+    background-size: cover;
+}
+
+.caroTwo{
+    height: 500px;
+    width: 100%;
+    background: #777;
+    color: #777;
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(./researchPhotos/Design.jpg);
+    background-size: cover;
+}
+
+.caroThree{
+    height: 500px;
+    width: 100%;
+    background: #777;
+    color: #777;
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(./researchPhotos/peer.jpg);
+    background-size: cover;
+}
+
+.caroFour{
+    height: 500px;
+    width: 100%;
+    background: #777;
+    color: #777;
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url(./researchPhotos/cozmOSU.jpg);
+    background-size: cover;
+}
+
+
+
+.jumboOne{
+    background-color: rgb(243, 241, 241);
+    padding-top: 13rem;
+    padding-bottom: 16rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+    border: rgb(194, 194, 194) 1px solid;
+
+}
