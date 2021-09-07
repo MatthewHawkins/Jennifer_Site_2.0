@@ -10,6 +10,9 @@ function Research() {
                 <Container className="rows">
                     <h1 className='mainFont'>Research</h1>
                 </Container>
+                <Container>
+                    <p className='rows'>Probably should add some sort of blip here before I actually move on</p>
+                </Container>
                 <Container className="text-center btnResearch">
                     <Button href='/research'>See Current Projects</Button>
                 </Container>
