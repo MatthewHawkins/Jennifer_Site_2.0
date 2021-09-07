@@ -8,8 +8,8 @@ import './researchPages.css';
 function ResearchMain() {
 
     return(
-        <div className>
-        <Carousel className=' carouseldimstext-center'>
+        <div>
+        <Carousel>
             <Carousel.Item>
                 <div className='caroOne'></div>
                 <Carousel.Caption>

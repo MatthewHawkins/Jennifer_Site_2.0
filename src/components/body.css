@@ -110,9 +110,11 @@
 /* Research */
 
 .carouseldims{
-    width: 100%;
-    height: 800px;
+    transition: 1s;
 }
+
+
+
 
 .carouselimg{
     height: 800px;
