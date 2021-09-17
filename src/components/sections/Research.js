@@ -14,6 +14,7 @@ function Research() {
                     <p className='rows'>Probably should add some sort of blip here before I actually move on</p>
                 </Container>
                 <Container className="text-center btnResearch">
+                    <br></br>
                     <Button href='/research'>See Current Projects</Button>
                 </Container>
             <Container className='padding'>
