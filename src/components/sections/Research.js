@@ -7,60 +7,98 @@ function Research() {
     return(
         <div>
             <Jumbotron className="jumboOne" id='Research'>
-                <Container className="rows">
+                <Container className="">
                     <h1 className='mainFont'>Research</h1>
                 </Container>
                 <Container>
-                    <p className='rows'>Probably should add some sort of blip here before I actually move on</p>
+                    <p className='rows'>I research computer science education from a computer science perspective, 
+                    and I use my research activities to make informed decisions about different pedagogical strategies 
+                    that improve the future of computer science education. </p>
+                    <br></br>
+                    <p className='rows'>Currently, I am PI on a large National Science Foundation CSforAll grant for $1,000,000 to 
+                        support the development of CS curriculum for 6th and 7th grade teachers and students at a local 
+                        dual-language (Spanish and English) middle school. The focus of the grant is to broaden 
+                        participation in CS by delaying programming and using board games to explain CS concepts, 
+                        while making learning CS fun engaging, and collaborative. 
+                    </p>
+                    <br></br>
+                    <p className='rows'>
+                    More recently, I am working with another assistant professor from Civil Engineering to start a 
+                    new computational engineering for one planet degree, and we were one of five universities award 
+                    $30,000 from the Lemelson Foundation to investigate how to start this new degree. We see this as a 
+                    way to build a partnership between multiple schools in the college of engineering, as well as with
+                    other colleges outside engineering, such as Business, Agriculture Sciences, Forestry, Science, 
+                    Liberal Arts, etc. This collaborative degree will broaden participation in computation and build 
+                    relationships between faculty from different academic units.
+                    </p>
+                    <br></br><br></br>
                 </Container>
                 <Container className="text-center btnResearch">
-                    <br></br>
+                    <p>Click here to learn more about my current projects: </p>
                     <Button href='/research'>See Current Projects</Button>
                 </Container>
+                <br></br><br></br>
+            <Container>
+            <p className='rows'>
+            I have graduated one PhD student and nine MS students (one of the PhD students as co-major professor), 
+            and currently, I am the major advisor for three PhD students and three MS students. Three of my graduate students, 
+            Beatrice Moissinac, Ph.D., Ernie Bodle, M.S., and Shannon Ernst, M.S., have published and presented their thesis 
+            work on computer science education in well-known, peer-reviewed conference papers. Furthermore, Roger Song, M.S., 
+            received a position as instructor of CS in the School of EECS, due to his excellent teaching as a graduate teaching assistant.
+            </p>
+            </Container>
             <Container className='padding'>
             <Row className='rowresearch'>
                 <Col md={3}>
                     <h2>PhD Students</h2>
                     <p>
-                        Paris Kathalas<br></br>
-                        Abdullah Azzouni<br></br>
-                        Eman Almadhoun
+                        Paris Kathalas (Current)<br></br>
+                        Abdullah Azzouni(Current)<br></br>
+                        Eman Almadhoun (Current)<br></br>
+                        Beatrice Moissinac (Fall 2019)
                     </p>
+                </Col>
+                <Col md={3}>
                     <h2>MS Students</h2>
                     <p>
-                        Aiden Nelson (MS Thesis)<br></br>
-                        Pallavi Sapale (MS Project)<br></br>
-                    </p>
-                    <h2>Undergrads</h2>
-                        Javier Garcia-Ramirez<br></br>
-                        Erick Branner<br></br>
-                </Col>
-                <Col md={3}>
-                    <h2>Past MS.PhD</h2>
-                    <p>
-                        Beatrice Moissinac (PhD)<br></br>
-                        Ashwaq Alsalmi (MS Project)<br></br>
-                        Shannon Ernst (MS Thesis)<br></br>
-                        Hanadi Alqahtani (MS Project)<br></br>
-                        Asma Alghamdi (MS Thesis)<br></br>
-                        Ernie Bodle (MS Thesis)<br></br>
-                        Fengfei (Funfay) Zheng (MS Thesis)<br></br>
-                        Chris Kawell (MS Thesis)<br></br>
-                        Yipeng (Roger) Song (MS Thesis)<br></br>
+                        Ayushi Gupta (Current)<br></br>
+                        Jason Weber (Current)<br></br>
+                        Aiden Nelson (Current)<br></br>
+                        Pallavi Sapale (Spring 2021)<br></br>
+                        Roger Song (Fall 2020)<br></br>
+                        Chris Kawell (Summer 2020)<br></br>
+                        Fengfei Zheng (Winter 2020)<br></br>
+                        Ernie Bodle (Fall 2019)<br></br>
+                        Asma Alghamdi (Spring 2019)<br></br>
+                        Shannon Ernst (Fall 2018)<br></br>
+                        Hanadi Alqahtani (Fall 2018)<br></br>
+                        Ashwaq Alsalmi (Summer 2018)
                     </p>
                 </Col>
-                <Col md={3}>
-                    <h2>Past Undergraduate Researchers</h2>
+                <Col md={4}>
+                    <h2>Undergraduate Researchers</h2>
                         <p>
-                        Jessica Garcia-Ramirez<br></br>
-                        Hannah Vaughan<br></br>
-                        Sharlena Luyen<br></br>
-                        Mason Sidebottom<br></br>
-                        Aiden Nelson<br></br>
-                        Kaitlin Hill<br></br>
-                        Emily Dominguez<br></br>
-                        Lily Shellhammer<br></br>
-                        Lizz Premer<br></br>
+                        Madelyn Smith (Fall 2021 – present)<br></br>
+                        Garrett Berliner (Summer 2021 – present)<br></br>
+                        Matthew Hawkins (Summer 2021 – present)<br></br>
+                        Javier Garcia (Fall 2020 – Summer 2021)<br></br>
+                        Erick Branner (Fall 2020 – Spring 2021)<br></br>
+                        Jessica Garcia (Winter 2019 – Spring 2020)<br></br>
+                        Kaitlin Hill (Fall 2018 – Spring 2020)<br></br>
+                        Aiden Nelson (Winter 2019 – Summer 2020)<br></br>
+                        Sharlena Lugyen (Summer 2018-Winter 2020)<br></br>
+                        Mason Sidebottom (Spring 2018- Fall 2019)<br></br>
+                        Hannah Vaughan (Spring 2018-Spring 2019)<br></br>
+                        Taz Thennell (Spring 2018)<br></br>
+                        Emily Dominguez (Fall 2017- Spring 2019)<br></br>
+                        Lily Shellhammer (Fall 2017-Spring 2019)<br></br>
+                        Liz Premer (Fall 2018-Winter 2019)<br></br>
+                        Miguel Gaspar (Spring 2018)<br></br>
+                        Ester Vega (Spring 2018)<br></br>
+                        Victor Campa (Fall 2017 – Spring 2018)<br></br>
+                        Louis Duvoisin (Fall 2017 – Spring 2018)<br></br>
+                        Jia Chen (Spring 2017)
+
                         </p>
                 </Col>
             </Row>
@@ -69,50 +107,58 @@ function Research() {
             <Jumbotron className='jumboResearch paddingR'>
                 <h1 className='display-4'>Publications</h1>
                 <p>
-	                Azzouni, Abdullah and Parham-Mocello, J. (2021). Continuous Improvement in Academic Computing Programs is Rarely Comprehensive. American Society for Engineering Education (ASEE 2021). (Abstract approved, Paper submitted) 
-                    <br></br><br></br>
-                    Azzouni, Abdullah and Parham-Mocello, J. (2021). A Method for Evaluating a Computing Program's Continuous Improvement Plan. Frontiers in Education (FIE 2021). (Abstract approved, Paper in progress) 
-                    <br></br><br></br>
-                    Almadhoun, E. and Parham-Mocello, J. (2021). Identifying Student Misunderstandings About Basic Linked List Components. Frontiers in Education (FIE 2021). (Abstract approved, Paper in progress) 
-                    <br></br><br></br>
-                    Azzouni, Abdullah and Parham-Mocello, J. (2021). Evaluating Current Continuous Improvement Approaches in an ABET-Accredited Computing Program (ITiCSE 2021). 
-                    <br></br><br></br>
-                    Niess, Margaret, Parham-Mocello, J. and Erwig, M. (2021). Reframing Middle School Mathematics Teachers' TPACK for Teaching A New Computer Science Curriculum: Researcher-Practitioner Partnership, Board Games, and Virtual Teaching Experiences. Proceedings of Society for Information Technology and Teacher Education International Conference. 
-                    <br></br><br></br>
-                    McCormick, M., Parham-Mocello, J., Heer, D. (2020 October). Improving Multidisciplinary Understanding Through Interdisciplinary Project-based Learning in a First-Year Orientation Course. Frontiers in Education (FIE 2020), Uppsala, Sweden.
-                    <br></br><br></br>
-                    Parham-Mocello, J., and Bodle, E. (2020, June), The Effectiveness of Using Robotics for Career Technology Education in a Middle School STE(A)M Course Paper presented at 2020 ASEE Virtual Annual Conference Content Access, Virtual On line . https://peer.asee.org/35311
-                    <br></br><br></br>
-                    Parham-Mocello, J. and Erwig, M. (2020). Does Story Programming Prepare for Coding? Special Interest Group in Computer Science Education (SIGCSE 2020).
-                    <br></br><br></br>
-                    Mossinic, B., Parham-Mocello, J. and Pappas, R. (2020). CS Student Laptop and Computer Lab Usage as a Factor of Success in Computing Education. Special Interest Group in Computer Science Education (SIGCSE 2020).
-                    <br></br><br></br>
-                    Parham-Mocello, J., Erwig, M., and Dominguez, E. (2019). To Code or Not to Code? Programming in Introductory CS Courses (VL/HCC 2019).
-                    <br></br><br></br>
-                    Parham-Mocello, J., Ernst, S., Erwig, M., Shellhammer, L., and Dominguez, E. (2019). Story Programming: Explaining Computer Science Before Coding. Special Interest Group in Computer Science Education (SIGCSE 2019). 
-                    <br></br><br></br>
-                    Ernst, S. and Parham-Mocello, J. (2018). Analysis of CS 1 and CS 2 Student Design Behavior. Psychology of Programming Interest Group (PPIG 2018).
-                    <br></br><br></br>
-                    Parham-Mocello, J. and Ernst, S. (2017 October). Analysis of Freshman Designs and the Correlation to Grades. The Journal of Computing Sciences in Colleges, 33(1), 186-193.
-                    <br></br><br></br>
-                    Parham, J., Gugerty, L., and Stevenson, D. E. (2010). Empirical Evidence for the Existence and Uses of Metacognition in Computer Science Problem Solving. SIGCSE (March 2010), 1-5.
-                    <br></br><br></br>
-                    Parham, J., Chinn, D., and Stevenson, D. E. (2009). Using Bloom's taxonomy to code verbal protocols of students solving a data structure problem. In Proceedings of the 47th Annual Southeast Regional Conference (March 2009), 1-6.
-                    <br></br><br></br>
-                    Stevenson, D. E. and Parham, Jennifer. (2006). Problem-Based and Case-Based Methods in Computer Science. The Creative College Teaching Journal, 3(1), 53–66.
-                    <br></br><br></br>
-                    Parham, J. (2003 December). An Assessment and Evaluation of Computer Science Education. The Journal of Computing Sciences in Colleges, 19(2), 115-127.
-                    <br></br><br></br>
+                Almadhoun, E. and Parham-Mocello, J. (2021). Identifying Student Misunderstandings About Basic Linked List Components in C. Innovations in Computing Education Research (VL/HCC 2021). (~30% acceptance rate) (advisor, major contributor, co-wrote the paper) 
+                <br></br><br></br>
+                Almadhoun, E. and Parham-Mocello, J. (2021). Exploratory Study on Accuracy of Students’ Mental Models of a Singly Linked List. Frontiers in Education (FIE 2021). (advisor, major contributor, co-wrote the paper) 
+                <br></br><br></br>
+                Azzouni, Abdullah and Parham-Mocello, J. (2021). A Method for Evaluating a Computing Program’s Continuous Improvement Plan. Frontiers in Education (FIE 2021). (advisor, major contributor, co-wrote the paper) 
+                <br></br><br></br>
+                Azzouni, Abdullah and Parham-Mocello, J. (2021). Continuous Improvement in Academic Computing Programs is Rarely Comprehensive. American Society for Engineering Education (ASEE 2021). (advisor, major contributor, co-wrote the paper)
+                <br></br><br></br>
+                Azzouni, Abdullah and Parham-Mocello, J. (2021). Evaluating Current Continuous Improvement Approaches in an ABET-Accredited Computing Program. Innovation and Technology in Computer Science Education (ITiCSE 2021). (~30% acceptance rate) (advisor, minor contributor, co-wrote the paper)
+                <br></br><br></br>
+                Niess, Margaret, Parham-Mocello, J. and Erwig, M. (2021). Reframing Middle School Mathematics Teachers’ TPACK for Teaching A New Computer Science Curriculum: Researcher-Practitioner Partnership, Board Games, and Virtual Teaching Experiences. Proceedings of Society for Information Technology & Teacher Education International Conference. (minor contributor, co-wrote the paper)
+                <br></br><br></br>
+                Moissinac, B., Parham-Mocello, J., and Pappas, R. (2020 March). CS Student Laptop and Computer Lab Usage as a Factor of Success in Computing Education. Special Interest Group in Computer Science Education (SIGCSE 2020). (~30% acceptance rate) (advisor, major contributor, co-wrote the paper) 
+                <br></br><br></br>
+                Parham-Mocello, J. and Erwig, M. (2020 March). Does Story Programming Prepare for Coding? Special Interest Group in Computer Science Education (SIGCSE 2020). (~30% acceptance rate) (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Bodle, E. and Parham-Mocello, J. (2020 June). The Effectiveness of Using Robotics in Middle School Career Technology Education. American Society for Engineering Education (ASEE 2020). (advisor, major contributor, co-wrote the paper)
+                <br></br><br></br>
+                McCormick, M., Parham-Mocello, J., Heer, D. (2020 October). Improving Multidisciplinary Understanding Through Interdisciplinary Project-based Learning in a First-Year Orientation Course. Frontiers in Education (FIE 2020), Uppsala, Sweden.  (minor contributor, co-wrote the paper)
+                <br></br><br></br>
+                Parham-Mocello, J., Erwig, M., and Dominguez, E. To Code or Not to Code? Programming in Introductory CS Courses (VL/HCC 2019). (~40% acceptance rate) (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham-Mocello, J., Ernst, S., Erwig, M., Shellhammer, L., and Dominguez, E. 2019. Story Programming: Explaining Computer Science Before Coding. Special Interest Group in Computer Science Education (SIGCSE 2019). (~30% acceptance rate) (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham-Mocello, J. and Ernst, S. (2017 October). Analysis of Freshman Designs and the Correlation to Grades. The Journal of Computing Sciences in Colleges, 33(1), 186-193. (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham, J., Gugerty, L., and Stevenson, D. E. 2010. Empirical Evidence for the Existence and Uses of Metacognition in Computer Science Problem Solving. SIGCSE (March 2010), 1-5. (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham, J., Chinn, D., and Stevenson, D. E. 2009. Using Bloom's taxonomy to code verbal protocols of students solving a data structure problem. In Proceedings of the 47th Annual Southeast Regional Conference (March 2009), 1-6. (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham, J. (2003 December). An Assessment and Evaluation of Computer Science Education. The Journal of Computing Sciences in Colleges, 19(2), 115-127. (sole contributor)
+                <br></br><br></br>
+                Parham-Mocello, J., Erwig, M., Niess (2021). Virtually Unplugged: Using Board Games for Online CS Middle School Camps. Visual Languages/Human Centered Computing (VL/HCC 2021) (key contributor, co-analyzed data, co-wrote short paper)
+                <br></br><br></br>
+                Ernst, S. and Parham-Mocello, J. Crafting Design Documents in First-Year CS Courses. Psychology of Programming Interest Group (PPIG 2018). (advisor, major contributor, co-wrote the paper)
+                <br></br><br></br>
+                D. Morton, J. Parham. (2004 April). Engaging Students in Computational Sciences. Paper presented at the 3rd annual Graduate Student and Faculty Conference in the College of Arts and Sciences (CAS), The University of Montana, Missoula, MT. (minor contributor, co-wrote the paper)
+                <br></br><br></br>
+                J. Parham, D. Morton. (2003 March). Scientific Computing in Climate Modeling. Paper presented at the Association of American Geographers 2003 Annual Meeting, New Orleans, LA. (major contributor, co-wrote the paper)
+                <br></br><br></br>
+                D. Morton, G. Robinson, J. Shuckra, J. Parham (presenter), T. Warburton. (2002 September). Building and Maintaining Critical Mass for Research Programs in the Frontier Regions. Paper presented at American Association for the Advancement of Science 53rd Arctic Science Conference, Fairbanks, AK. (minor contributor, co-wrote the paper)
+                <br></br><br></br>
                 </p>
                     <h1 className='display-4'>Papers In Progress</h1>
                 <p>
                     
-                    Parham-Mocello, J., Kalathas, P., Elliot, R. and Lockwood, E. (2021). Exploring Math + CS in a Secondary Education Methods Course.
-                    <br></br><br></br>
-	                Parham-Mocello, J., Erwig, M., Niess, M., Kawell, C. and Friedman, B. (2021). Virtually Unplugged: Using Board Games For Online CS Middle School Camps. 
-                    <br></br><br></br>
-    	            Parham-Mocello, J. A Cognitive Model Explaining How People Solve CS Problems. Computer Science Education. Paper in progress.  
-                    <br></br><br></br>
+                Parham-Mocello, J. Erwig, M., and Niess, M. (2022). Putting Computing on the Table: Using Board Games to Teach Computer Science. Special Interest Group in Computer Science Education (SIGCSE 2022). (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Kalathas, P., Parham-Mocello, J., Elliott, R., and Lockwood, E., (2022). Exploring Math + CS in a Secondary Education Methods Course. Special Interest Group in Computer Science Education (SIGCSE 2022). (advisor, major contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
+                Parham-Mocello, J., Nelson, A., and Erwig, M. (2022). Using the right tool: An exploration of teaching using a domain-specific teaching language. Special Interest Group in Computer Science Education (SIGCSE 2022). (key contributor, co-analyzed data, co-wrote the paper)
+                <br></br><br></br>
                 </p>
             </Jumbotron>
             </Container>

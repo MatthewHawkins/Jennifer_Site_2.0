@@ -9,7 +9,7 @@ function ResearchMain() {
 
     return(
         <div>
-        <Carousel>
+        <Carousel fade>
             <Carousel.Item>
                 <div className='caroOne'></div>
                 <Carousel.Caption>

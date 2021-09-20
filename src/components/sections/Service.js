@@ -12,7 +12,7 @@ function Service(){
     <Jumbotron className="jumboOne" id='Service'>
        <Container className="rows">
            <h1 className='mainFont'>Service</h1>
-           <p>
+           <p className='rows'>
            I am the faculty advisor of the ACM-W student club, and I supervise a K-12 CS 
            Outreach group. I am also one of our ABET curriculum cordinators this year, and I 
            serve on the College of Engineering (COE) Engineering+ Taskforce, who has been tasked 
